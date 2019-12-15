@@ -1,7 +1,10 @@
 <?php
 
-	$x	= 4;
-	$y	= 5;
-	$z	= $x + $y;
+	$server	= "localhost";
+	$user	= "root";
+	$password	= "1234";
+	$dbname	= "adminlte";
 
-	echo $z;
+	$konek	= mysqli_connect($server, $user, $password, $dbname);
+
+	
